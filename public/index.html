@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- <h1>User Registration</h1> -->
+    <div>
+      <button id="loadUsersBtn">Load Users</button>
+    </div>
+
+    <div class="formArea">
+      <h2>Registration: Add new user</h2>
+      <form id="addUserForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="date" id="dob" placeholder="Date of Birth" required>
+        <button type="submit">Add User</button>
+      </form>
+    </div>
+
+    <div class="userList">
+      <h2>Users List</h2>
+    </div>
+    <div class="userDetailSection">
+      <table id="usersTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #23242a;
+  background-color: rgba(0, 0, 0, 0.867);
+  color: black;
+  color: #ffffc7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('sitlogo.png');
+  background-repeat: no-repeat;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.722);
+    padding: 20px;
+    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px rgba(43, 43, 42, 0.399);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0px 10px red;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  button {
+    background-color: #3d4a4b;
+    color: #ffffc7;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .formArea{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url('sitlogo.png'); */
+    align-items: center;
+  }
+  .formArea h2{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.5% 0.8% 0.5% 0.8%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, red, rgba(255, 0, 0, 0.822), rgba(255, 0, 0, 0.526), rgba(255, 0, 0, 0.137));
+  }
+  form input {
+    margin: 10px 0;
+    padding: 10px 10px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.248);
+    color: white;
+    line-height: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #3d4a4b;
+  }
+  
+  table tr:hover {
+    background-color: #3d4a4b;
+  }
+  
+  #loadUsersBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #548687;
+    color: #ffffc7;
+    cursor: pointer;
+  }
+.userList{
+  margin-top: 2%;
+  /* border: 2px solid #3d4a4b; */
+  border-radius: 3px;
+  background-color: #3d4a4b;
+  color: #ffffc7;
+  text-align: center;
+}
+.userList h2{
+  font-weight: 400;
+  font-size: 25px;
+}  
